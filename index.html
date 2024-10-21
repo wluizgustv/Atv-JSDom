@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Lista de Tarefas</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="header">
+            <h2>Lista de tarefas</h2>
+            <input type="text" id="tarefa" placeholder="Informe a tarefa">
+            <span onclick="addElemento()" class="addBtn">Incluir</span>
+        </div>
+        <ul id="itemLista">
+            <li>17/10/2024: Tomar café</li>
+            <li>19/10/2024: Fazer compras</li>
+            <li>21/10/2024: Entregar atividade no moodle</li>
+        </ul>
+        <footer>    
+            <div id="limpar" onclick="limparLista()">
+                <span>Limpar Lista</span>
+            </div>
+        </footer>
+    </body>
+    <script src="script.js"></script>
+</html>
